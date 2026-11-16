@@ -61,12 +61,14 @@ div[data-testid="stColumn"]:nth-child(1) [data-testid="stMetric"] { background: 
 div[data-testid="stColumn"]:nth-child(5) [data-testid="stMetric"] { background: #FFC9C6; }
 
 /* Pestañas */
-.stTabs [data-baseweb="tab-list"] { gap: 10px; border-bottom: none !important; flex-wrap: wrap; }
-.stTabs [data-baseweb="tab"] { background: #fff; border: 2.5px solid #2F4A74; border-radius: 999px; padding: 6px 18px; height: auto; }
-.stTabs [data-baseweb="tab"] p { font-weight: 700; font-size: .98rem; }
-.stTabs [aria-selected="true"] { background: #2F4A74 !important; box-shadow: 3px 3px 0 #F2A900; }
-.stTabs [aria-selected="true"] p { color: #FFF6DD !important; }
-.stTabs [data-baseweb="tab-highlight"], .stTabs [data-baseweb="tab-border"] { display: none !important; }
+[role="tablist"] { gap: 4px; border-bottom: 3px solid #2F4A74 !important; flex-wrap: wrap; padding-left: 6px; }
+[role="tab"] { background: rgba(255,255,255,.55) !important; border: none !important; border-radius: 18px 18px 0 0 !important;
+  padding: 8px 20px; height: auto; margin-bottom: -3px; box-shadow: none !important; }
+[role="tab"]:hover { background: #fff !important; }
+[role="tab"] p { font-weight: 700; font-size: .98rem; }
+[role="tab"][aria-selected="true"] { background: #2F4A74 !important; }
+[role="tab"][aria-selected="true"] p { color: #FFF6DD !important; }
+[data-baseweb="tab-highlight"], [data-baseweb="tab-border"], [data-testid="stTabs"] [role="tablist"] + div[aria-hidden] { display: none !important; }
 
 /* Textos de apoyo */
 .titulo-g { font-family: 'Fraunces', serif; font-weight: 800; font-size: 1.15rem; margin: .2rem 0 .1rem; }
