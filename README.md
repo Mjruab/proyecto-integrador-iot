@@ -9,7 +9,7 @@ saturación de oxígeno (SpO₂) registradas por un tótem con ESP32, lector NFC
 
 ## Autor
 
-Proyecto desarrollado de forma individual por: _Tu nombre completo_ (_tu correo_).
+Proyecto desarrollado de forma individual por: Maria José Rúa - mjruab@eafit.edu.co
 
 ## Enlaces
 
