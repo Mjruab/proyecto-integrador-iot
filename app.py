@@ -84,7 +84,7 @@ st.sidebar.caption(
 # --------------------------------------------------------------------------- #
 # Encabezado e indicadores
 # --------------------------------------------------------------------------- #
-st.title("🫀 Tótem IoT de monitoreo fisiológico · EAFIT")
+st.title("🫀 Tótem IoT de monitoreo fisiológico · Universidad EAFIT")
 st.caption(
     "Análisis de mediciones de frecuencia cardíaca (BPM) y saturación de oxígeno (SpO₂) "
     "del sensor MAX30102. Datos simulados, sin valor clínico."
@@ -103,7 +103,7 @@ k1.metric("Mediciones", f"{n_total:,}")
 k2.metric("Estudiantes distintos", f"{df['student_id'].nunique():,}")
 k3.metric("BPM promedio (válidas)", f"{validas['heart_rate_bpm'].mean():.1f}" if len(validas) else "—")
 k4.metric("SpO₂ promedio (válidas)", f"{validas['spo2_percent'].mean():.1f} %" if len(validas) else "—")
-k5.metric("Mediciones inválidas", f"{n_inval:,}", f"{pct(n_inval, n_total):.1f} % del total", delta_color="off")
+k5.metric("Mediciones inválidas", f"{n_inval:,}", f"{pct(n_inval, n_total):.1f} % del total", delta_color="off", delta_arrow="off")
 
 tab_uso, tab_fisio, tab_ind, tab_cal, tab_hall = st.tabs(
     ["📈 Uso del tótem", "❤️ Indicadores fisiológicos", "👤 Seguimiento individual",
