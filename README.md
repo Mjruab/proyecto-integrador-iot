@@ -13,7 +13,7 @@ Proyecto desarrollado de forma individual por: Maria José Rúa - mjruab@eafit.e
 
 ## Enlaces
 
-- Aplicación publicada: _pegar enlace de Streamlit Community Cloud_
+- Aplicación publicada: https://proyecto-integrador-iot-mjruab.streamlit.app/ 
 - Video explicativo: _pegar enlace de YouTube_
 
 ## Cómo ejecutarlo
