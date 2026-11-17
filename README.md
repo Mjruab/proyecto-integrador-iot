@@ -9,12 +9,12 @@ saturación de oxígeno (SpO₂) registradas por un tótem con ESP32, lector NFC
 
 ## Autor
 
-Proyecto desarrollado de forma individual por: Maria José Rúa - mjruab@eafit.edu.co
+Proyecto desarrollado de forma individual por: María José Rúa Balvín (mjruab@eafit.edu.co).
 
 ## Enlaces
 
-- Aplicación publicada: https://proyecto-integrador-iot-mjruab.streamlit.app/ 
-- Video explicativo: _pegar enlace de YouTube_
+- Aplicación publicada: https://proyecto-integrador-iot-mjruab.streamlit.app
+- Video explicativo: https://youtu.be/uMuwzjEoNNU
 
 ## Cómo ejecutarlo
 
