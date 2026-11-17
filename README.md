@@ -49,9 +49,3 @@ proyecto_integrador_eafit_max30102.csv
 README.md
 .gitignore
 ```
-
-## Publicación en Streamlit Community Cloud
-
-1. Sube el repositorio a GitHub.
-2. En [share.streamlit.io](https://share.streamlit.io) crea una app nueva con el repositorio, la rama principal y `app.py` como archivo.
-3. Abre el enlace público en una ventana de incógnito antes de entregarlo.
